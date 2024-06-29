@@ -1,0 +1,32 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    background-image: url("../public/images/heros/hero-image_3.jpg");
+    width: 100%;
+    height: 400px;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+      
+.text {
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 1200px){
+    .hero{
+        max-width: 100vh;
+        height: 250px;
+        background-size: contain;
+    }
+    .text {
+        font-size: 0.8rem;
+        text-align: left;
+        color: white;
+    }
+}
